@@ -26,19 +26,19 @@ To compile the project, follow these steps:
 This will:
 - Compile the source code.
 - Create an `obj` directory for object files.
-- Place the executable in the `bin` directory.
+
 
 ## Running the Project  
 Once the project is built, you can run the game by executing the following command:
 
-   `./bin/myworld`
+   `./myworld`
 
 ## Cleaning Up  
 To remove compiled files and clean up the project, run:
 
-   `make clean`
+   `make fclean`
 
-This will delete the `obj` and `bin` directories along with all compiled files.
+This will delete the `obj` and compiled files.
 
 ## Customization  
 You can customize the **Makefile** to adjust compiler flags or add additional source files to suit your needs.
